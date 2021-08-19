@@ -1,6 +1,6 @@
 ## learning elm
 
-![cats.png](cats.png)
+![images/cats.png](images/cats.png)
 
 ```bash
 curl -L -o elm.gz https://github.com/elm/compiler/releases/download/0.19.1/binary-for-linux-64-bit.gz
@@ -9,17 +9,20 @@ curl -L -o elm.gz https://github.com/elm/compiler/releases/download/0.19.1/binar
 -- https://github.com/elm/compiler/blob/master/hints/init.md
 
 Dev
+
 ```bash
 elm init
 elm reactor
 ```
 
 Make
+
 ```bash
 elm make src/Cats.elm --optimize --output=Cats.html
 ```
 
 Optimize
+
 ```bash
 # optimized
 elm make src/Cats.elm --optimize --output=docs/elm.js
@@ -30,7 +33,16 @@ uglifyjs docs/elm.js --compress 'pure_funcs=[F2,F3,F4,F5,F6,F7,F8,F9,A2,A3,A4,A5
 ```
 
 Run
+
 ```bash
 ./gen-index.sh
 serve docs
 ```
+
+Elm Architecture
+
+![images/the-elm-architecture.svg](images/the-elm-architecture.svg)
+
+Elm Runtime
+
+![images/the-elm-architecture-animation.gif](images/the-elm-architecture-animation.gif)
