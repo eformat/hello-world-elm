@@ -18,7 +18,7 @@ cat <<'EOF' > docs/index.html
 
   <body>
     <div id="cats"></div>
-   
+
     <script src="elm.min.js"></script>
     <script>
       var app = Elm.Cats.init({
