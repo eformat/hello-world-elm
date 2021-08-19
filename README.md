@@ -2,11 +2,15 @@
 
 ![images/cats.png](images/cats.png)
 
+- https://guide.elm-lang.org/
+- https://github.com/elm/compiler/blob/master/hints/init.md
+- https://elmprogramming.com/
+- https://ellie-app.com/new
+- https://engineering.rakuten.today/post/elm-at-rakuten/
+
 ```bash
 curl -L -o elm.gz https://github.com/elm/compiler/releases/download/0.19.1/binary-for-linux-64-bit.gz
 ```
-
--- https://github.com/elm/compiler/blob/master/hints/init.md
 
 Dev
 
