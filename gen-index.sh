@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cat <<'EOF' > build/index.html
+cat <<'EOF' > docs/index.html
 <!DOCTYPE html>
 <html>
   <head>
