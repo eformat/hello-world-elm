@@ -1,5 +1,7 @@
 ## learning elm
 
+![cats.png](cats.png)
+
 ```bash
 curl -L -o elm.gz https://github.com/elm/compiler/releases/download/0.19.1/binary-for-linux-64-bit.gz
 ```
@@ -28,5 +30,3 @@ Run
 ./gen-index.sh
 serve build
 ```
-
-![cats.png](cats.png)
